@@ -9,11 +9,13 @@ import { OrbitControls } from 'https://cdn.skypack.dev/three@0.133.1/examples/js
 const name = prompt("No te regalaron tus FLORES AMARILLAS 🌼? pipipipipipi \nNo te preocupes ingresa tu nombre 😎");
 
 // Implementación de audio
-const audioSunFlowers = new Audio('./public/sunflowers-song.mp3'); 
-const audioBolanos = new Audio('./public/bolanos-audio.mp3');
+// const audioSunFlowers = new Audio('./public/sunflowers-song.mp3'); 
+// const audioBolanos = new Audio('./public/bolanos-audio.mp3');
 
 const btnAudioSunFlowers = document.getElementById('audioSunFlowers');
 const btnAudioBolanos = document.getElementById('audioBolanos');
+const audioSunFlowers = document.getElementById('sunFlowersAudio');
+const audioBolanos = document.getElementById('bolanosAudio');
 
 // Función para manejar el clic en el botón de SunFlowers
 btnAudioSunFlowers.addEventListener('click', () => {
