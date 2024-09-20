@@ -135,15 +135,15 @@ function init() {
 // ---------------------------------------------------------------
 
 function createEvents() {
-    document.addEventListener('keyup', () => {
-        handleInput();
-        refreshText();
-    });
+    // document.addEventListener('keyup', () => {
+    //     handleInput();
+    //     refreshText();
+    // });
 
-	 document.addEventListener('click', () => {
-        textInputEl.focus();
-		  setCaretToEndOfInput();
-    });
+	//  document.addEventListener('click', () => {
+  //       textInputEl.focus();
+	// 	  setCaretToEndOfInput();
+  //   });
     // textInputEl.addEventListener('blur', () => {
         // textInputEl.focus();
     // });
