@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Flores Amarillas</title>
+  </head>
+  <body>
+    <div class="fixed left-0 top-0 -z-10 h-full w-full"><div class="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div></div>
+    <div class="min-h-screen px-4" id="app">
+      <div class="fixed top-0 left-0 opacity-0 pointer-events-none" id="text-input" contenteditable="true"></div>
+      <div class="fixed top-0 left-0 content-animation"></div>
+      <div class="fixed top-[2rem] w-full px-4 left-0 right-0">
+        <audio class="sr-only" controls id="sunFlowersAudio">
+          <source src="public/sunflowers-song.mp3" type="audio/ogg">
+          Tu navegador no soporta el elemento audio.
+        </audio>
+        <h1 class="text-lg text-center text-[wheat]">Tú no solo te mereces un ramo de flores amarillas, te mereces todo el jardín. <br>Disfruta de este 21 hermosa! 🌼</h1>
+        <div class="max-w-[400px] mx-auto grid grid-cols-2 mt-4 gap-4">
+          <button class="bg-[#ffeaa7] px-4 py-4 rounded-full text-sm" id="audioSunFlowers">Click! 🌻</button>
+          <button class="bg-[#fdcb6e] px-4 py-4 rounded-full text-sm" id="audioBolanos">Click! 😏</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
