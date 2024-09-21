@@ -6,7 +6,10 @@ import * as THREE from "https://cdn.skypack.dev/three@0.133.1/build/three.module
 import { OrbitControls } from 'https://cdn.skypack.dev/three@0.133.1/examples/jsm/controls/OrbitControls'
 
 // Init Name
-const name = prompt("No te regalaron tus FLORES AMARILLAS 🌼? pipipipipipi \nNo te preocupes ingresa tu nombre 😎");
+const name = prompt("Pipipipipipipi, no te regalaron tus FLORES AMARILLAS 🌼? \nAquí tampoco te la vamos a regalar pero tenemos un pequeño detalle para ti. Así que ingresa tu nombre 😎");
+
+const bodyInit = document.body;
+bodyInit.classList.remove('opacity-[.1]', 'bg-black');
 
 // Implementación de audio
 // const audioSunFlowers = new Audio('./public/sunflowers-song.mp3'); 
